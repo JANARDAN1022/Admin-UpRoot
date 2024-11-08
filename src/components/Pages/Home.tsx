@@ -1,9 +1,9 @@
-import { SidebarDemo } from '../SideBar/SideBar'
+import Dashboard from "../DashBoard/Dashboard";
 
 const Home = () => {
   return (
     <div className='w-full h-screen overflow-hidden'>
-     <SidebarDemo />
+    <Dashboard />
     </div>
   )
 }
